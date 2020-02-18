@@ -1,0 +1,9 @@
+This program is timed scrabble. The server handles multiple pairs of players and they look through a list of letters with at least one vowel and try to come up with words.
+
+I think the hardest part would be making sure the program follows exactly what the protocol asks for. There are a lot of little details that could be overlooked that may lead to points deducted.
+
+If stuck, I can refer to the textbook, look things up on google, or come to office hours.
+
+I will be using the open source trie from skeeto on github.
+
+I will work on the program every day until it is completed.

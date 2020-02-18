@@ -1,0 +1,19 @@
+1. Rose Lim
+
+2. Not working:
+
+      Trie tree for dictionary.
+      Seems to insert fine, but searching is not working.
+      my words_used trie tree is working fine, however
+
+3. Lots of runs: tried just pressing enter as input, putting multiple of one letter, invalid words, valid words, almost tied rounds, onesided rounds. Tried disabling some checks, adding them slowly back to make sure each one was working properly. Tried sending non letters, spaces between letters, too many letters (more than uint8_t limit).
+
+4. Most challenging aspect was
+
+    figuring out select(),
+    syncing recvs and sends,
+    and following the protocol.
+
+  Select() took a while to get my head around.
+  Had a lot of issues making sure every recv was matched with a send. Had to map out on paper how the program flowed multiple times.
+  Closely following the protocol was difficult because I would misread, and when I reread it, I would have to completely change my code.
